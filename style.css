@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Oswald:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    color: #747171;
+    line-height: 1.4em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header style */
+.header {
+    background-color: #34497C;
+    color: #fff;
+    padding: 15px 0;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+/* contact form section */
+.contact_form {
+    background-image: url(images/img1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding: 70px 0;
+    height: 787px;
+}
+
+.contact_form .col-md-8 {
+    transform: translateY(-5%);
+}
+
+form {
+    background-color: #4B69B1;
+    color: #fff;
+    padding: 50px 50px 0 50px;
+
+}
+
+form h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+form p {
+    text-align: center;
+    font-size: 24px;
+    border-top: 15px;
+    padding: 20px 0 56px 0;
+    font-weight: bold;
+}
+
+.contact_form input {
+    background-color: #253458;
+    color: #828282;
+    padding: 23px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    height: 50px;
+    border: none;
+    width: 100%;
+
+}
+
+.form_lent {
+    background-image: url(images/lenta.png);
+    height: 118px;
+    background-position: center;
+    position: relative;
+    margin: 37px -62px 30px -62px;
+
+}
+
+.contact_form button {
+    width: 80%;
+    height: 50px;
+    background-color: #253458;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 34px 10%;
+    font-weight: 500;
+
+}
+
+.vector1 {
+    border-bottom: 0px solid transparent;
+    border-top: 12px solid #A86F00;
+    border-right: 0px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: 118px;
+    left: 0px;
+}
+
+.vector2 {
+    border-bottom: 0px solid transparent;
+    border-top: 12px solid #A86F00;
+    border-right: 12px solid transparent;
+    border-left: 0px solid transparent;
+    position: absolute;
+    top: 118px;
+    right: 0px;
+}
+
+.inform1 {
+    height: 630px;
+    background-image: url(images/inform1.png);
+
+}
+
+.inform1 h1 {
+    font-family: 'Oswald',
+        sans-serif;
+    color: #34497C;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 53px 0 26px 0;
+}
+
+.inform2 h1 {
+    font-family: 'Oswald',
+        sans-serif;
+    color: #34497C;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 53px 0 26px 0;
+}
+
+.inform1,
+.inform2,
+.inform3,
+.inform4 p {
+    font-family: EB Garamond;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #585858;
+    text-align: center;
+}
+
+.inform1_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inform_items img {
+    padding: 11% 30% 24% 30%;
+
+}
+
+.inform_items h3 {
+    text-align: center;
+    font-family: EB Garamond;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #253458;
+}
+
+.inform_items p {
+    font-family: EB Garamond;
+    font-size: 16px;
+    line-height: 22px;
+    color: #585858;
+    width: 90%;
+
+}
+
+.inform_items {
+    background-image: url(images/Union.png);
+    background-repeat: no-repeat;
+    list-style-type: none;
+    background-position: center top;
+    background-size: auto;
+    height: 359px;
+}
+
+.inform2 .inform2_items p {
+    color: #C4C4C4;
+    font-size: 16px;
+    line-height: 22px;
+    width: 90%;
+}
+
+.inform2_items {
+    list-style-type: none;
+    height: 359px;
+}
+
+.inform3 {
+    text-align: center;
+    background-image: url(images/inform3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inform3 img {
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    margin-bottom: 36px;
+}
+
+.line {
+    margin-top: 26px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #253458;
+}
+
+.suppord {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #253458;
+    margin-top: 20px;
+}
+
+.inform4 {
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inform4 h1 {
+    font-family: 'Oswald',
+        sans-serif;
+    color: #34497C;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 53px 0 26px 0;
+}
+
+.inform4_list {
+    display: flex;
+
+}
+
+.inform_pic {
+    background-image: url(images/inform4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 391px;
+}
+
+.inform4 li {
+    font-family: EB Garamond;
+    font-size: 18px;
+    line-height: 37px;
+    color: #747171;
+    list-style-image: url(images/bool_list.png);
+}
+
+.footer_up {
+    height: 110px;
+    background-color: #FBA702;
+
+
+}
+
+.footer_up_subscribe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.subscribe_info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.footer_text {
+    Font-family: EB Garamond;
+    font-weight: Bold;
+    Font-size: 24px;
+    Line-height: 110px;
+    color: #fff;
+}
+
+.footer_up input {
+    width: 250px;
+    height: 50px;
+}
+
+.subscribe {
+    width: 175px;
+    height: 50px;
+    background-color: #A86F00;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.footer {
+    height: 419px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_item h4 {
+    Font-family: EB Garamond;
+    font-weight: Bold;
+    Font-size: 24px;
+    Line-height: 31.5px;
+    color: #FBA702;
+    margin: 43px 0 23px 0;
+}
+
+.footer_item p {
+    Font-family: EB Garamond;
+    Font-size: 16px;
+    Line-height: 22px;
+    color: #fff;
+
+}
+
+.footer_item a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.footer_item img {
+    margin-right: 15px;
+}
